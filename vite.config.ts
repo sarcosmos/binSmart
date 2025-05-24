@@ -35,6 +35,6 @@ export default defineConfig({
             input: 'resources/js/app.ts',
         },
     },
-    base: '/build/', // 👈 Esto asegura rutas relativas válidas (HTTPS desde el dominio)
+    base: '/build/',
 });
 
